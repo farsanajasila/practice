@@ -14,12 +14,13 @@ class SplashPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
              Icon(
-              Icons.favorite,
-               size: 80,
-              color: Colors.red,
+               Icons.audiotrack,
+               color: Colors.green,
+               size: 30.0,
+               semanticLabel: "Text to announce in accessibility modes",
              ),
             Text(
-              "My Application",
+              "Music",
               style: TextStyle(
                   fontSize: 20,
                   color: Colors.green,
